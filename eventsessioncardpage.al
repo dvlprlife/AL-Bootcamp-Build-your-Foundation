@@ -40,6 +40,13 @@ page 50203 "Event Session Card"
                 {
                 }
             }
+            group(Registrations)
+            {
+                part("Event Registration List"; "Event Registration Subform")
+                {
+                    SubPageLink = "Event Session No." = field("No.");
+                }
+            }
         }
     }
 }
