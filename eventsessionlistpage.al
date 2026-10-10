@@ -36,5 +36,12 @@ page 50202 "Event Session List"
                 }
             }
         }
+        area(FactBoxes)
+        {
+            part("Instructor Factbox"; "Instructor Factbox")
+            {
+                SubPageLink = "No." = field("Instructor No.");
+            }
+        }
     }
 }
