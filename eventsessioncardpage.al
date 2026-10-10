@@ -36,6 +36,9 @@ page 50203 "Event Session Card"
                 field("Instructor No."; Rec."Instructor No.")
                 {
                 }
+                field("No. of Registrations"; Rec."No. of Registrations")
+                {
+                }
             }
         }
     }

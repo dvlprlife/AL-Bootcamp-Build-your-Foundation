@@ -4,7 +4,7 @@ page 50204 "Event Registration List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Event Registration";
-    Editable = false;
+    Editable = true;
 
     layout
     {

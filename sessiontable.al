@@ -60,6 +60,14 @@ table 50201 "Event Session"
             TableRelation = "Instructor"."No.";
             DataClassification = CustomerContent;
         }
+        field(9; "No. of Registrations"; Integer)
+        {
+            Caption = 'No. of Registrations';
+            FieldClass = FlowField;
+            CalcFormula = count("Event Registration"
+                where("Event Session No." = field("No.")));
+            Editable = false;
+        }
     }
 
     keys
