@@ -21,6 +21,14 @@ table 50202 "Event Registration"
         {
             Caption = 'Payment Status';
         }
+        field(4; "Contact Name"; Text[100])
+        {
+            Caption = 'Contact Name';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Contact.Name
+                where("No." = field("Contact No.")));
+            Editable = false;
+        }
     }
     keys
     {

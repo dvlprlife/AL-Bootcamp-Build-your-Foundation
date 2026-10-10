@@ -21,6 +21,9 @@ page 50204 "Event Registration List"
                 field("Payment Status"; Rec."Payment Status")
                 {
                 }
+                field("Contact Name"; Rec."Contact Name")
+                {
+                }
             }
         }
     }
