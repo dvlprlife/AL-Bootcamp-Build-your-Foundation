@@ -26,6 +26,11 @@ table 50200 Instructor
             Caption = 'Phone No.';
             ToolTip = 'The phone number of the instructor.';
         }
+        field(6; "Job Title"; Text[80])
+        {
+            Caption = 'Job Title';
+            ToolTip = 'The job title of the instructor.';
+        }
     }
 
     keys

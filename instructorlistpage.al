@@ -25,6 +25,10 @@ page 50200 "Instructor List"
                 field("Phone No."; Rec."Phone No.")
                 {
                 }
+                field("Job Title"; Rec."Job Title")
+                {
+                    Caption = 'Job Title';
+                }
             }
         }
     }

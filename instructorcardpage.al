@@ -28,6 +28,10 @@ page 50201 "Instructor Card"
                 {
                     Caption = 'Phone No.';
                 }
+                field("Job Title"; Rec."Job Title")
+                {
+                    Caption = 'Job Title';
+                }
             }
         }
     }
