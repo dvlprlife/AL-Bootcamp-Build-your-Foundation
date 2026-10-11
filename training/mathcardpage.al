@@ -53,7 +53,7 @@ page 50207 "Math Card"
             action(Subtract)
             {
                 Caption = 'Subtract Numbers';
-                Image = Migration;
+                Image = BankAccountRec;
 
                 trigger OnAction()
                 var
@@ -79,7 +79,7 @@ page 50207 "Math Card"
             action(Divide)
             {
                 Caption = 'Divide Numbers';
-                Image = Divide;
+                Image = AdjustItemCost;
 
                 trigger OnAction()
                 var
